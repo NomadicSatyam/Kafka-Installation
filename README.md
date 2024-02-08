@@ -6,7 +6,7 @@
 
 `docker exec -it <kafka_conatiner_id-or-name > /bin/bash`
 
-### Create Kafka topic
+### Create Kafka topic here quickstart is topic name
 
 `kafka-topics --create --topic quickstart --bootstrap-server localhost:9092 --partitions 1 --replication-factor 1`
 
