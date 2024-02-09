@@ -25,7 +25,11 @@ docker exec -it <kafka_conatiner_id-or-name > /bin/bash
 
 ### Start Producer app (CLI)
 
-`kafka-console-producer --broker-list localhost:9092 --topic quickstart`
+``` 
+
+kafka-console-producer --broker-list localhost:9092 --topic quickstart
+
+```
 
 ### Open New Terminal in Container
 
