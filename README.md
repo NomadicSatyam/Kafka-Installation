@@ -25,3 +25,10 @@
 ### Start consumer app (CLI)
 
 `kafka-console-consumer --bootstrap-server localhost:9092 --topic quickstart --from-beginning`
+
+### List Out All Topics 
+```kafka-topics --list --bootstrap-server <your_bootstrap_server>```
+
+### Example
+```kafka-topics.sh --list --bootstrap-server broker:9092
+```
