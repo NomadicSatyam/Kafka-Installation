@@ -30,5 +30,7 @@
 ```kafka-topics --list --bootstrap-server <your_bootstrap_server>```
 
 ### Example
-```kafka-topics.sh --list --bootstrap-server broker:9092
+```
+kafka-topics.sh --list --bootstrap-server broker:9092
+
 ```
